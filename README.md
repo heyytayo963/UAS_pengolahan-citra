@@ -49,3 +49,10 @@ plt.title('Gambar Tersegmentasi dengan Klastering K-Means')
 plt.axis('off')
 plt.show()
 ```
+
+
+![image](https://github.com/heyytayo963/UAS_pengolahan-citra/assets/115687740/b2a08458-5270-4cd7-9376-5e54fc45fca1)
+
+
+![image](https://github.com/heyytayo963/UAS_pengolahan-citra/assets/115687740/cdd07f35-0d6a-4bbd-94d5-0b9bb343a5e3)
+
