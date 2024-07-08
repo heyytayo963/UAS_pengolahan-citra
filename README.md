@@ -3,9 +3,11 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Read the image (use an image path that you have)
+~~~
 image = cv2.imread('una.jpg')
-
+~~~
 # Check if the image was successfully loaded
+~~~
 if image is None:
     print("Error: Image not found or unable to load.")
 else:
@@ -17,13 +19,16 @@ else:
     plt.title('Original Image')
     plt.axis('off')  # Hide axis
     plt.show()
-
+~~~
     # Reshape the image to a 2D array of pixels and 3 color values (RGB)
+~~~
     pixel_vals = image.reshape((-1, 3))
+~~~
 
     # Convert to float type
+    ~~~
     pixel_vals = np.float32(pixel_vals)
-
+~~
     # Step 1: Pilih jumlah cluster yang ingin dicari yaitu k.
     k = 4
 
